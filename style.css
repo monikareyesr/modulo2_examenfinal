@@ -1,10 +1,8 @@
 body{
-    margin: 0px;
-    background-color: ;
-    height: auto;
-    width: 80rem ;
-    
+    background-image: url(https://i.pinimg.com/originals/b8/50/85/b850858fed286ddb8c908510a184c9ac.gif);;
 }
- 
 
-img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);" src="https://i.imgur.com/KvsBlef.gif" width="408" height="287"
+#container{
+    background-color: rgba(241, 232, 233, 0.773);
+    width: 50%;
+}

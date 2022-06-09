@@ -21,7 +21,7 @@ const words = [
     'chili'
 ];
 
-let time = 3;
+let time = 10;
 let score = 0;
 
 let palabra;
@@ -93,7 +93,8 @@ function gameOver() {
         location.reload();
     })
 
-    score
+    score = 0
+    time= 10 
 
 }
 

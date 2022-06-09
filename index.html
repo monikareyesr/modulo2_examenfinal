@@ -6,21 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Typer D.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="container">
+  <div class="container mt-5" id="container">
     <div class="main">
-      <h2>⌨️ TYPER 3000 ⌨️</h2>
-      <p>Escribe la siguiente palabra:</p>
+      <h2 class="pt-5">⌨️ TYPER 3000 ⌨️</h2>
+      <p class="p-3">Escribe la siguiente palabra:</p>
 
       <h1 id="randomWord"></h1>
 
       <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." />
 
       <p class="time-container">
-        Tiempo restante: <span id="timeSpan"></span>
+        Tiempo restante: <span id="timeSpan">10s</span>
       </p>
 
       <p class="score-container">Score: <span id="score">0</span></p>
@@ -30,6 +31,7 @@
     </div>
   </div>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
