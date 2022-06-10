@@ -1,29 +1,103 @@
 //variables
-const words = [
-    'californication',
-    'plataforma5',
-    'black',
-    'summer',
-    'flea',
-    'aeroplane',
-    'peppers',
-    'unlimited',
-    'arcadium',
-    'love',
-    'getaway',
-    'stadium',
-    'quixoticelixer',
-    'quarter',
-    'snow',
-    'dylan',
-    'zephyr',
-    'funky',
-    'chili'
+const words = ['californication',
+   'plataforma5',
+   'black',
+   'summer',
+   'flea',
+   'aeroplane',
+   'peppers',
+   'unlimited',
+   'arcadium',
+   'love',
+   'getaway',
+   'stadium',
+   'quixoticelixer',
+   'quarter',
+   'snow',
+   'dylan',
+   'zephyr',
+   'funky',
+   'chili',
+   'beat',
+   'beautiful',
+   'because',
+   'become',
+   'bed',
+   'before',
+   'begin',
+   'behavior',
+   'behind',
+   'believe',
+   'benefit',
+   'best',
+   'better',
+   'between',
+   'beyond',
+   'car',
+   'card',
+   'care',
+   'career',
+   'carry',
+   'case',
+   'center',
+   'central',
+   'century',
+   'certain',
+   'certainly',
+   'character',
+   'charge',
+   'check',
+   'child',
+   'choice',
+   'choose',
+   'church',
+   'citizen',
+   'common',
+   'community',
+   'company',
+   'compare',
+   'computer',
+   'concern',
+   'condition',
+   'conference ',
+   'debate',
+   'decade',
+   'decide',
+   'decision',
+   'deep',
+   'defense',
+   'degree',
+   'democrat',
+   'democratic',
+   'fire',
+   'firm',
+   'first',
+   'fish',
+   'five',
+   'floor',
+   'fly',
+   'follow',
+   'food',
+   'group',
+   'grow',
+   'growth',
+   'guess',
+   'gun',
+   'guy',
+   'hair',
+   'half',
+   'hand',
+   'hang',
+   'happen',
+   'international',
+   'interview',
+   'into',
+   'investment',
+   'involve',
+   'issue'
 ];
-
 let time = 10;
 let score = 0;
-
 let palabra;
 
 const palabraAleatoria = document.querySelector('#randomWord');
@@ -31,6 +105,8 @@ const inputPalabra = document.querySelector('#text');
 const tiempo = document.querySelector('#timeSpan');
 const puntaje = document.querySelector('#score');
 const divGameOver = document.querySelector('#end-game-container');
+const divMain = document.querySelector('#main');
+
 
 
 //funciones
@@ -66,6 +142,7 @@ function actualizarTiempo() {
 
     if (time === 0) {
         clearInterval(timeInterval);
+        divMain.style.display = 'none';
         gameOver();
     }
 }
@@ -92,9 +169,8 @@ function gameOver() {
     boton.addEventListener('click', function () {
         location.reload();
     })
-
-    score = 0
-    time= 10 
+    score = 0;
+    time= 10;
 
 }
 

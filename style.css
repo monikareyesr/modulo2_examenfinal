@@ -1,35 +1,55 @@
-body{
+body {
     background-image: url(https://i.pinimg.com/originals/b8/50/85/b850858fed286ddb8c908510a184c9ac.gif);
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    font-size:medium;
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif ;*/
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    font-size: medium;
     font-weight: bolder;
 }
 
-#container{
+#container {
     background-color: rgba(241, 232, 233, 0.773);
-    width: 50%;
-    border-radius:10%;
+    width: 40%;
+    border-radius: 2rem;
     box-shadow: 15px 20px;
-    margin:auto;
-    padding:2rem ;
+    margin-top: 10rem;
+    padding: 2rem;
 }
 
-input{
+input {
     width: 60%;
-    height: auto; 
+    height: 3rem;
     padding: 5px;
     font-size: medium;
     color: darkblue;
     border: solid #abb8ff 2px;
     font-weight: bold;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.p-3 {
+
+.parrafo {
     text-align-last: center;
-    font-size:large;
+    font-size: large;
     font-weight: bold;
 }
-.pt-5{
+
+.titulo_p {
     font-size: xx-large;
+}
+
+.main h2 span {
+    background: linear-gradient(273deg, rgba(195, 34, 70, 0.975210066936931) 28%, rgba(15, 15, 15, 0.9499999829033176) 74%);
+    background-clip: text;
+    color: transparent;
+}
+
+#randomWord {
+    color: rgb(23, 62, 70);
+}
+
+#end-game-container button {
+    background-color: rgba(28, 28, 29, 0.678);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: bisque;
 }
